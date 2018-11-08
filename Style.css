@@ -1,0 +1,130 @@
+body {
+    
+    background: url("tlo.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+  
+    font-family: 'Slabo 27px', serif;
+       transform: scale(0.75); 
+   }
+   div.container {
+      
+   width: 1140px;
+   margin: auto;
+   padding: 0 15px;
+   
+   
+   }
+   div.main-content {
+   width: 105%;
+   }
+   div.content {
+   overflow: auto;
+   }
+   article, footer, header, section {
+   display:  block;
+   }
+   article, .title, footer {
+   background: rgba(255,255,255,0.6);
+   padding: 10px;
+   }
+   header {
+   margin-bottom: 15px;
+   text-align: center;
+   }
+   article {
+   margin-right: 15px;
+   margin-bottom: 15px;
+   overflow: auto;
+   text-align: justify;
+   text-align: center;
+   }
+   footer {
+   margin-top: 15px;
+   text-align: center;
+   }
+   figure {
+      
+   
+   border-top: 1px ;
+   border-right: 1px ;
+   border-left: 1px ;
+   border-bottom: 1px ;
+   }
+   #css {
+       color: #E44D26;
+   }
+   #html{
+       color: #0070BA;
+   }
+   header h1 {
+   color:  #1CB11D;
+   }
+   nav ul {
+    
+      
+       position: relative;
+       left: 15%;
+       padding: 0;
+       margin: 0px auto;
+        text-align: center;
+   list-style: none;
+   overflow: auto;
+   
+   
+   
+   }
+   nav ul li{
+     
+   float: left;
+   margin-right: 25px;
+   height: 48px;
+   width: 95px;
+   margin: 15px;
+    
+   
+   }
+   div.cos {
+       background: rgba(0,0,0,0.6);
+   }
+   nav ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 20px;
+   text-align: center;
+   vertical-align: middle;
+   display: table;
+   width: 100%;
+   height: 100%;
+   }
+   nav ul li a span{
+       display: table-cell;
+       vertical-align: middle;
+   }
+
+ .login-page{
+     width: 360px;
+     padding: 10% 0 0;
+     margin: auto;
+ }  
+ 
+
+.ListaZlecen {
+background: rgba(000,187,045,0.5);
+}
+.MojeZlecenia{
+    background: rgba(034,113,179,0.5);
+}
+.HistoriaZlecen{
+    background: rgba(255,117,020,0.7);
+}
+.Schowek{
+    background: rgba(11, 230, 223, 0.6);
+}
+.Grafik{
+    background:  rgba(255,0,0,0.5);
+}
+.Uzytkownicy{
+    background: rgba(245, 23, 234, 0.5);
+}
