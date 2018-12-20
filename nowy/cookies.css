@@ -1,0 +1,14 @@
+(function($) {
+$.fn.cookiepolicy = function(options) {
+    new jQuery.cookiepolicy($(this), options);
+	return this;
+};
+
+$.cookiepolicy = function(options) {
+};
+})(jQuery);
+options = $.extend({
+    cookie: 'cookiepolicyinfo',
+    info: 'Korzystanie z witryny oznacza zgodę na wykorzystywanie plików cookie.',
+    close: 'Zamknij'
+   }, options || {});

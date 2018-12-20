@@ -1,0 +1,20 @@
+
+body {
+    /* margin: 3%; */
+    background: url("background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    font-family: 'Slabo 27px', serif;
+    transform: scale(1);
+
+}
+
+@media  screen and (max-width: 600px) {
+    td {vertical-align:bottom;text-align:center;}
+
+    .mobilewrapper{width:100%!important; height:auto!important;}
+    .colsplit{width:100%!important; float:left!important; display:block!important;}
+    .btn{width: 100%;}
+    
+    }

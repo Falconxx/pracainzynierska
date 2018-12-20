@@ -1,0 +1,263 @@
+
+body {
+    /* margin: 3%; */
+    background: url("background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    font-family: 'Slabo 27px', serif;
+    transform: scale(1);
+
+}
+
+   div.container {
+      
+   width: 100%;
+   height: 100%;
+   padding: 0 10px;
+   
+   
+   }
+ 
+   
+   div.main-content {
+   width: 100%;
+   }
+   div.content {
+    width: 100%; 
+    display:  inline-block;
+    overflow: auto;
+   }
+   article, footer, header, section {
+   display:  block;
+   }
+   article, .title, footer {
+   background: rgba(255,255,255,0.8);
+   padding: 10px;
+   }
+   p{
+    transform: scale(1); 
+     margin-top: 2%; 
+   margin-bottom: 20px;
+   
+   text-align: center;
+   font-size:20px;
+ 
+   }
+   @media only screen and (max-width:600px){
+     p{margin-top: 7%; }
+
+   
+}
+
+   header {
+    transform: scale(1);
+    margin-top: -65px;
+
+   margin-bottom: 0;
+   text-align: center;
+   font-size:50px;
+
+   }
+  
+   article {
+    transform: scale(1);
+    width: 100%; 
+   overflow: auto;
+   text-align: justify;
+   text-align: center;
+   }
+   @media only screen and (max-width:600px){
+   header{transform: scale(1.0);}
+   article{transform: scale(1.0);}
+ 
+ }
+   footer {
+    
+        position:fixed;
+        width: auto;
+        height: auto;
+        padding: 5px;
+        clear: both;
+        left:0;
+        right:0;
+        margin-top: 15px;
+        text-align: center;
+   }
+   figure {
+      
+   
+   border-top: 1px ;
+   border-right: 1px ;
+   border-left: 1px ;
+   border-bottom: 1px ;
+   }
+   #css {
+       color: #E44D26;
+   }
+   #html{
+       color: #0070BA;
+       /* font-weight: bold; */
+       font-size: 125%;
+    }
+   header h1 {
+width: 100%;   }
+   nav ul {
+    
+      width: 100%;
+       position: relative;
+       left: 0;
+       padding: 0;
+       margin: 0px auto;
+        text-align: center;
+   list-style: none;
+   overflow: auto;
+   
+   
+   
+   }
+   nav ul li{
+     
+   float: left;   
+   height: 48px;
+   width: 95px;
+    
+   
+   }
+  
+   div.cos {
+    min-width: 600px;
+    background: rgba(0,0,0,0.6);
+       height: 100%;
+   }
+   nav ul li a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-size:2vw;
+   text-align: center;
+   vertical-align: middle;
+   display: table;
+   list-style-type: none;
+   width: 100%;
+   height: 50px;
+   white-space:nowrap;
+
+   }
+   
+   nav ul li a span{
+       display: table-cell;
+       vertical-align: middle;
+       width: 100%;
+       height: 100%;
+   }
+   div.select-field{display: none;}
+  
+
+
+  
+  @media screen and (max-width: 600px) {
+    div.title{display: none;}
+    div.cos{display: none;}
+    nav ul {display: none;}
+    div.custom-select{display: block;}
+    /* p{
+        display: none;
+
+}  */
+    div.select-field {
+        transform: scale(1);
+        /* margin-top: 20%; */
+      display: inline-block;
+      height: 100%;
+      padding: 0px;
+      background-color:#3d4655; 
+      width: 100%;
+      font-size: 38px;
+      border-radius: 4px;
+      background-position: 98% 50%;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 1;
+
+    }
+    div.select-field:after{
+        content: "";
+        width: 0px;
+        height: 0px;
+
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+
+        position: absolute;
+        top:27px;
+        right: 15px;
+        z-index: 3;
+
+    }
+    div.select-field > select {
+        float: left;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px 45px 0px 15px;
+        border: 0px;
+        background-color: transparent; 
+        font-family: 'asbold';
+        font-size: 38px;
+        color: #bdc3d1;
+        position: relative;
+        z-index: 3;
+    }
+    div.select-field > select > option{
+        padding: 10px;
+    }
+  }
+ .login-page{
+     width: 360px;
+     padding: 14% 0 0;
+     margin: auto;
+ }  
+ 
+    .NewOrder {
+    background: rgba(0,255,255,0.4);
+    width: 14%;
+    height: 90%;
+    }
+    .ListOfOrder {
+    background: rgba(000,187,045,0.4);
+    width: 15%;
+    height: 90%;
+    }
+    .MyOrders{
+    background: rgba(0,255,0,0.4);
+    width: 14%;
+    height: 90%;
+    }
+    .HistoryOfOrders{
+    background: rgba(255,255,0,0.4);
+    width: 15%;
+    height: 90%;
+    }
+    .Storage{
+    background: rgba(11, 230, 223, 0.4);
+    width: 14%;
+    height: 90%;
+    }
+    .Graphic{
+    background:  rgba(255,0,0,0.4);
+    width: 14%;
+    height: 90%;
+    
+    }
+    .Users{
+    background: rgba(245, 23, 234, 0.4);
+    width: 14%;
+    height: 90%;
+    }
+    .col2 * {
+    width:100%;
+    }
+    .columns{
+        vertical-align: middle;
+
+    }
